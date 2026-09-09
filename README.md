@@ -196,11 +196,3 @@ python analysis/attention_visualization.py \
 ```
 
 For State-Aware, joint attention is the normalized geometric mean of the two biomarker-specific attention distributions. Percentile scaling and spatial smoothing are applied only for visualization.
-
-## Citation
-
-A `CITATION.cff` file is included. Please cite the associated manuscript when using this implementation.
-
-## Notes on reproducibility
-
-This repository is a cleaned research implementation derived from the final experiment code used for the manuscript. It intentionally excludes exploratory analyses and environment-specific Google Drive paths that were not part of the reported paper workflow.

@@ -220,10 +220,3 @@ experiments/run_ablations.py
 
 Additional reproduction details are provided in [`docs/reproduction.md`](docs/reproduction.md), and the numerical paper summaries are available in [`results/`](results/).
 
-## Data
-
-TCGA whole-slide images, molecular labels, pretrained foundation-model weights, and extracted patient embeddings are not redistributed with this repository. See [`docs/data_setup.md`](docs/data_setup.md) for the expected manifest and embedding formats.
-
-## Citation
-
-If you use this implementation, please cite the accompanying manuscript. Citation information will be updated following publication.

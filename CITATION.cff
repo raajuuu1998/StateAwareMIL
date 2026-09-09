@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "State-Aware Interaction MIL"
+message: "If you use this code, please cite the associated manuscript."
+type: software
+authors:
+  - family-names: Dasari
+    given-names: Naga Raju
+  - family-names: Bameta
+    given-names: Tripti
+version: 0.1.0

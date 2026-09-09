@@ -1,0 +1,39 @@
+display_name: TCGA-LUAD
+output_name: LUAD_EGFR_TP53
+expected_patients: 428
+biomarker_a: EGFR
+biomarker_b: TP53
+
+data:
+  manifest: data/luad_egfr_tp53/manifest.csv
+  fold_file: data/luad_egfr_tp53/folds.csv
+  embeddings:
+    uni2:
+      - data/luad_egfr_tp53/embeddings/uni2h
+    conch:
+      - data/luad_egfr_tp53/embeddings/conch
+
+foundation_models:
+  uni2:
+    display_name: UNI2-h
+    dimension: 1536
+  conch:
+    display_name: CONCH
+    dimension: 512
+
+training:
+  seed: 42
+  train_tile_cap: 3000
+  evaluation_tile_cap: null
+  hidden_dim: 256
+  attention_dim: 128
+  dropout: 0.10
+  lr: 1.0e-4
+  weight_decay: 1.0e-5
+  max_epochs: 30
+  patience: 6
+  gradient_accumulation: 4
+  auxiliary_weight: 0.25
+  validation_fraction: 0.15
+  posthoc_c: 1.0
+  posthoc_max_iter: 2000

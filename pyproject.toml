@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "state-aware-interaction-mil"
+version = "0.1.0"
+description = "State-Aware Interaction MIL for rare joint molecular phenotype prediction from whole-slide histology."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  {name = "Dasari Naga Raju"},
+  {name = "Tripti Bameta"}
+]
+dependencies = [
+  "torch>=2.2",
+  "numpy>=1.24",
+  "pandas>=2.0",
+  "scikit-learn>=1.3",
+  "scipy>=1.10",
+  "matplotlib>=3.7",
+  "PyYAML>=6.0",
+  "tqdm>=4.65",
+  "joblib>=1.3"
+]
+
+[project.optional-dependencies]
+attention = ["openslide-python>=1.3"]
+test = ["pytest>=8.0"]
+
+[tool.setuptools.packages.find]
+include = ["stateaware_mil*"]

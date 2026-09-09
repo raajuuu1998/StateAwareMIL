@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+.env
+.DS_Store
+
+# Data and model artifacts
+data/
+outputs/
+*.pt
+*.pth
+*.ckpt
+*.joblib
+*.svs
+*.tif
+*.tiff
+*.ndpi
+
+# Generated analysis outputs
+analysis_outputs/

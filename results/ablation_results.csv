@@ -1,0 +1,17 @@
+cohort,variant,foundation_model,auroc_mean,auroc_sd,ap_mean,ap_sd
+TCGA-COAD+READ,Full State-Aware,UNI2-h,0.9080,0.0965,0.5566,0.2015
+TCGA-COAD+READ,No interaction,UNI2-h,0.9038,0.0927,0.5178,0.1568
+TCGA-COAD+READ,No auxiliary supervision,UNI2-h,0.9009,0.1002,0.4604,0.1346
+TCGA-COAD+READ,Binary joint supervision,UNI2-h,0.8786,0.0810,0.4542,0.1835
+TCGA-COAD+READ,Full State-Aware,CONCH,0.8876,0.0473,0.4410,0.0446
+TCGA-COAD+READ,No interaction,CONCH,0.8281,0.0703,0.3039,0.0993
+TCGA-COAD+READ,No auxiliary supervision,CONCH,0.8611,0.0516,0.3604,0.0900
+TCGA-COAD+READ,Binary joint supervision,CONCH,0.8546,0.0594,0.3920,0.1024
+TCGA-LUAD,Full State-Aware,UNI2-h,0.6725,0.1746,0.2784,0.1714
+TCGA-LUAD,No interaction,UNI2-h,0.7107,0.1035,0.2604,0.1296
+TCGA-LUAD,No auxiliary supervision,UNI2-h,0.6467,0.1849,0.2553,0.1704
+TCGA-LUAD,Binary joint supervision,UNI2-h,0.6455,0.0969,0.2079,0.1613
+TCGA-LUAD,Full State-Aware,CONCH,0.5725,0.1285,0.1659,0.1078
+TCGA-LUAD,No interaction,CONCH,0.5561,0.1510,0.1882,0.1128
+TCGA-LUAD,No auxiliary supervision,CONCH,0.5923,0.1406,0.1665,0.0895
+TCGA-LUAD,Binary joint supervision,CONCH,0.4872,0.1093,0.1063,0.0332
